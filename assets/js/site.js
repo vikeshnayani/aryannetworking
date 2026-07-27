@@ -16,8 +16,9 @@ const SITE = {
   phone: "+91 91103 85837",
   phoneRaw: "+919110385837",
 
-  whatsapp: "+91 70136 03940",
-  whatsappRaw: "917013603940",
+  // WhatsApp is the same line as the phone number.
+  whatsapp: "+91 91103 85837",
+  whatsappRaw: "919110385837",
 
   email: "aryannetwork23@gmail.com",
 
@@ -46,8 +47,8 @@ const SITE = {
   // Footer link column
   quickLinks: [
     { label: "Enterprise Networking", href: "solutions.html#networking" },
-    { label: "Cybersecurity",         href: "solutions.html#cybersecurity" },
-    { label: "Cloud &amp; Virtualisation", href: "solutions.html#cloud" },
+    { label: "Data Centre &amp; Storage", href: "solutions.html#datacentre" },
+    { label: "Surveillance &amp; Workplace", href: "solutions.html#workplace" },
     { label: "Managed Services",      href: "services.html" },
     { label: "About Us",              href: "about.html" },
     { label: "Contact Us",            href: "contact.html" }
