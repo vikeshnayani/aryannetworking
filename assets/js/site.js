@@ -21,6 +21,7 @@ const SITE = {
   whatsappRaw: "919110385837",
 
   email: "shyam@aryannetworkingsolutions.com",
+  emailSales: "sales@aryannetworkingsolutions.com",
 
   person: {
     name: "Shyam S",
@@ -230,6 +231,7 @@ function mount() {
       phone: SITE.phone,
       whatsapp: SITE.whatsapp,
       email: SITE.email,
+      emailsales: SITE.emailSales,
       person: SITE.person.name,
       role: SITE.person.role,
       address: [SITE.address.line1, SITE.address.line2,
@@ -243,6 +245,7 @@ function mount() {
     const map = {
       phone: "tel:" + SITE.phoneRaw,
       email: "mailto:" + SITE.email,
+      emailsales: "mailto:" + SITE.emailSales,
       whatsapp: "https://wa.me/" + SITE.whatsappRaw
     };
     if (map[key]) el.setAttribute("href", map[key]);
