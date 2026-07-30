@@ -32,7 +32,7 @@ const SITE = {
   phoneRaw: "+919110385837",     // used for the tap-to-call link
   whatsapp: "+91 70136 03940",
   whatsappRaw: "917013603940",   // used for the wa.me link, no + or spaces
-  email: "aryannetwork23@gmail.com",
+  email: "shyam@aryannetworkingsolutions.com",
   ...
 };
 ```

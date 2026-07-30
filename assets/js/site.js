@@ -20,7 +20,7 @@ const SITE = {
   whatsapp: "+91 91103 85837",
   whatsappRaw: "919110385837",
 
-  email: "aryannetwork23@gmail.com",
+  email: "shyam@aryannetworkingsolutions.com",
 
   person: {
     name: "Shyam S",
